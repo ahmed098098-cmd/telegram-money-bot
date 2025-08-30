@@ -3,7 +3,8 @@ import random
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Replace with your BotFather token
-BOT_TOKEN = "8498118490:AAGlTd-UjCMlTVohBAQs7YQGC1Hz357GosY"
+import os
+BOT_TOKEN = os.getenv("8498118490:AAGlTd-UjCMlTVohBAQs7YQGC1Hz357GosY")
 ADMIN_USERNAME = "@ahmedomarahmedom"
 ADMIN_CHAT_ID = YOUR_TELEGRAM_CHAT_ID   # <-- Replace with your Telegram ID
 
